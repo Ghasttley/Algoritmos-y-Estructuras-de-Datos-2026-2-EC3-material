@@ -19,5 +19,5 @@
 ```
 
 Nota: mi cuenta de GitHub de UTEC es _Ghasttley_; sin embargo, 
-por accidente los archivos fueron pusheados por mi otra cuenta _Corpse_. 
+por accidente los archivos fueron pusheados por mi otra cuenta _IngamePawn_. 
 Espero no haya ningún problema por ello.
