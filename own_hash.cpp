@@ -15,7 +15,7 @@ class hashtab{
     int n; // n: buckets
         std::vector<Node<kt, vt>*> table;
         const size_t hashfunct(kt key) const { return std::hash<kt>{}(key) % static_cast<size_t>(n);
-            //return key%n; 
+            //return key%n; // for strings up one...
         }
 
     public:
@@ -29,7 +29,7 @@ class hashtab{
             return nullptr; 
         }   
 
-        const vt* search(kt& key) const {
+        const vt* search(const kt& key) const {
             size_t idx = hashfunct(key); // "hashing the key"
                 for (Node<kt, vt>* current = table[idx]; current; current = current -> next)
                     { if (current -> key == key) { return &current -> value; } }
