@@ -9,8 +9,6 @@
 ├── hash_table.cpp
 ├── own_hash.cpp # mainly will use this one (probably)
 ├── bst.cpp
-├── practice/
-│   ├── JoyasPiedras.cpp
 ├── sem5/
 │   ├── Multisets_Iguales_Solucion.cpp
 │   ├── A.cpp
